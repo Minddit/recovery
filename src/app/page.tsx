@@ -26,11 +26,7 @@ export default function HomePage() {
               size="icon"
               className="rounded-full w-8 h-8 bg-background"
               asChild
-            >
-              {/* <Link href="https://github.com/banitalebi/data-visualization-dashboard">
-                <GitHubLogoIcon className="h-[1.2rem] w-[1.2rem]" />
-              </Link> */}
-            </Button>
+            ></Button>
             <ModeToggle />
           </nav>
         </div>

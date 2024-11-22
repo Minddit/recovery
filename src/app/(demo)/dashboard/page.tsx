@@ -7,16 +7,10 @@ import {
   BreadcrumbLink,
   BreadcrumbList,
   BreadcrumbPage,
-  BreadcrumbSeparator
+  BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
-import { Label } from "@/components/ui/label";
-import { Switch } from "@/components/ui/switch";
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger
-} from "@/components/ui/tooltip";
+
+import { TooltipProvider } from "@/components/ui/tooltip";
 import { useSidebar } from "@/hooks/use-sidebar";
 import { useStore } from "@/hooks/use-store";
 import Charts from "@/components/charts-01";
@@ -25,7 +19,7 @@ import { CalendarDateRangePicker } from "@/components/CalendarDateRangePicker";
 export default function DashboardPage() {
   const sidebar = useStore(useSidebar, (x) => x);
   if (!sidebar) return null;
-  const { settings, setSettings } = sidebar;
+  // const { settings, setSettings } = sidebar;
   return (
     <ContentLayout title="Dashboard">
       <Breadcrumb>
