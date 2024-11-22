@@ -7,10 +7,8 @@ import {
   BreadcrumbLink,
   BreadcrumbList,
   BreadcrumbPage,
-  BreadcrumbSeparator
+  BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
-
-import PlaceholderContent from "@/components/demo/placeholder-content";
 
 import TableOrder from "@/components/ReportsTable/TableOrder";
 
@@ -36,7 +34,6 @@ export default function ReportsPage() {
           </BreadcrumbItem>
         </BreadcrumbList>
       </Breadcrumb>
-      {/* <PlaceholderContent /> */}
       <TableOrder />
     </ContentLayout>
   );
