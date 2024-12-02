@@ -15,6 +15,7 @@ import { useSidebar } from "@/hooks/use-sidebar";
 import { useStore } from "@/hooks/use-store";
 import Charts from "@/components/charts-01";
 import { CalendarDateRangePicker } from "@/components/CalendarDateRangePicker";
+import { Button } from "@/components/ui/button";
 
 export default function DashboardPage() {
   const sidebar = useStore(useSidebar, (x) => x);
@@ -37,7 +38,11 @@ export default function DashboardPage() {
       </Breadcrumb>
       <TooltipProvider>
         <div className="flex gap-6 mt-6 flex-col mx-auto justify-center items-end">
-          <CalendarDateRangePicker />
+          <div className="flex flex-row gap-5">
+            <Button className="dark:bg-black">Download</Button>
+            <CalendarDateRangePicker />
+          </div>
+
           <Charts />
         </div>
       </TooltipProvider>
