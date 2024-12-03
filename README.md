@@ -1,6 +1,6 @@
-# The Next.js Shadcn Visualization Dashboard Template
+# The Next.js Shadcn Dashboard Template
 
-The **Next.js Shadcn Visualization Dashboard Template** is a powerful, user-friendly template designed for developers looking to create dynamic and visually appealing admin dashboards. Built with **Next.js**, **TypeScript**, and **Shadcn UI**, this template leverages modern technologies to provide a robust foundation for various applications, including analytics, e-commerce, and content management systems.
+The **Next.js Shadcn Dashboard Template** is a powerful, user-friendly template designed for developers looking to create dynamic and visually appealing admin dashboards. Built with **Next.js**, **TypeScript**, and **Shadcn UI**, this template leverages modern technologies to provide a robust foundation for various applications, including analytics, e-commerce, and content management systems.
 
 ## Features
 - **Next.js 14 Compatibility**: Utilizes the latest features of Next.js for optimal performance and scalability.
